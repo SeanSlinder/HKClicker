@@ -1,9 +1,9 @@
+require("dotenv").config();
 const puppeteer = require("puppeteer");
 
 (async () => {
   const url = "https://api.hamsterkombat.io/clicker/tap";
-  const token =
-    "1718473645362AaDOx8CeJZSo3skqXuVVLavmlpQG0F1V9GtztMnVirAEUMbkNLDKgvKSVI74fiTO619270546";
+  const token = process.env.TOKEN;
   const data = {
     count: 500,
     availableTaps: 7500,
