@@ -19,7 +19,7 @@ jobs:
         run: echo "TOKEN=${{ secrets.TOKEN }}" >> .env
 
       - name: Install dependencies
-        run: npm install
+        run: npm install puppeteer dotenv
 
       - name: Run Puppeteer script
         run: node index.js
