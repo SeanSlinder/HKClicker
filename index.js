@@ -50,7 +50,7 @@ const puppeteer = require("puppeteer");
           });
       };
 
-      setInterval(tap, 600000);
+      setInterval(tap, 60000);
     },
     url,
     token,
