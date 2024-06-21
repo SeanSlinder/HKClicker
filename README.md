@@ -18,7 +18,7 @@ This project is an AutoClicker for [HamsterKombat.io](https://hamsterkombat.io) 
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/hamsterkombat-autoclicker.git
+   git clone https://github.com/SeanSlinder/hamsterkombat-autoclicker.git
    cd hamsterkombat-autoclicker
    ```
 

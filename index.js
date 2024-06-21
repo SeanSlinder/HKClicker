@@ -48,6 +48,7 @@ const puppeteer = require("puppeteer");
           .catch((error) => {
             console.error("Error:", error);
           });
+        ``;
       };
 
       setInterval(tap, 60000);
