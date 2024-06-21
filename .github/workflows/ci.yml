@@ -1,9 +1,10 @@
-name: Puppeteer Test
+name: Autoclick
 
-on: [push]
+on:
+  workflow_dispatch:
 
 jobs:
-  puppeteer:
+  clciker:
     runs-on: ubuntu-latest
 
     steps:
